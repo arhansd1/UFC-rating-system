@@ -1,8 +1,11 @@
 # MMA Fighter Rating System
 
-This project calculates and analyzes MMA fighters' performance over time. Using fight data, it creates a **dynamic rating** for each fighter, tracking both their **current** and **peak scores** (highest career score). The project considers opponent quality, win/loss outcomes, and victory methods.
+This project calculates and analyzes MMA fighters' performance over time. Using fight data, it creates a **dynamic record** for each fighter, tracking both their **current** and **peak scores** (highest career score). The project considers opponent quality, win/loss outcomes, and victory methods.
 
 ## Project Overview
+- Used UFC official website for webscraping all data 
+http://ufcstats.com/statistics/fighters
+http://ufcstats.com/statistics/events/completed
 
 - **Load Data**: Collects fighter data from a CSV and scrapes additional stats.
 - **Calculate Scores**: Adjusts scores based on:
@@ -35,10 +38,10 @@ This project calculates and analyzes MMA fighters' performance over time. Using 
      ```bash
      jupyter notebook
      ```
-   - Run `dynamic_rating.ipynb` and `fighters_score.ipynb` to calculate and export scores.
+   - Run `dynamic record.ipynb` and `static record.ipynb` to calculate and export scores.
 
 ## Project Files
 
-- **`static_data.csv`**: Base fighter data with quality factors.
-- **`dynamic_rating.ipynb`** & **`fighters_score.ipynb`**: Main scripts to process data and output final scores.
+- **`static_data.csv`**: Base fighter data with quality factors. Final result
+- **`dynamic record.ipynb`** & **`static record.ipynb`**: Main scripts to process data and output final scores.
 - **`requirements.txt`**: Required Python packages.
